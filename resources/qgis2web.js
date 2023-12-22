@@ -27,7 +27,7 @@ var map = new ol.Map({
     overlays: [overlayPopup],
     layers: layersList,
     view: new ol.View({
-        extent: [615591.178410, 5587667.037111, 641795.120396, 5606264.909445], maxZoom: 25, minZoom: 1
+         maxZoom: 25, minZoom: 1
     })
 });
 
@@ -37,7 +37,7 @@ layerSwitcher.hidePanel = function() {};
 layerSwitcher.showPanel();
 
 
-map.getView().fit([615591.178410, 5587667.037111, 641795.120396, 5606264.909445], map.getSize());
+map.getView().fit([646176.241975, 5674970.425073, 646814.006366, 5675607.322898], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1

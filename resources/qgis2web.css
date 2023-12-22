@@ -85,12 +85,4 @@ th, td {
 #popup-content>table {
     font-size: 11.4px;
 }
-.popupImage {
-    max-width: 10%;
-    max-height: 10%;
-}
-.popupImage2 {
-    max-width: 10%;
-    max-height: 10%;
-}
-#popup-content img {max-width: 200px;}
+#popup-content img {max-width: 400px;}
